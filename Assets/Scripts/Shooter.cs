@@ -32,7 +32,7 @@ public class Shooter : MonoBehaviour
 
     
     public bool isFiring = false;
-    bool coneProjectileRotation = false;
+    //bool coneProjectileRotation = false;
 
     Coroutine firingCoroutine;
     AudioPlayer audioPlayer;
@@ -191,6 +191,8 @@ public class Shooter : MonoBehaviour
     }
 }
 
+#if UNITY_EDITOR
+
 [CustomEditor(typeof(Shooter))]
 public class ShooterScriptEditor : Editor
 {
@@ -213,7 +215,7 @@ public class ShooterScriptEditor : Editor
     
 
     bool showAIControls = false;
-    bool showBurstFireControls = false;
+    //bool showBurstFireControls = false;
 
     private void OnEnable()
     {
@@ -304,3 +306,4 @@ public class ShooterScriptEditor : Editor
     }
 
 }
+#endif
