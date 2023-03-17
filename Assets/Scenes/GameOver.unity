@@ -1328,6 +1328,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finalScoreText: {fileID: 528565751}
+  replayButton: {fileID: 1650973972}
+  menuButton: {fileID: 1130865439}
 --- !u!1 &1650973970
 GameObject:
   m_ObjectHideFlags: 0
