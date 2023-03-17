@@ -43,7 +43,7 @@ public class LevelManager : MonoBehaviour
     }
 
 
-    public void LoadGane()
+    public void LoadGame()
     {
         if(scorekeeper != null)
             scorekeeper.ResetScore();

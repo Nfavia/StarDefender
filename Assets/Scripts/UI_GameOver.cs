@@ -37,7 +37,7 @@ public class UI_GameOver : MonoBehaviour
     // Set up on click listeners since they dont save the singleton LevelManager
     private void ButtonSetup()
     {
-        replayButton.onClick.AddListener(levelManager.LoadGane);
+        replayButton.onClick.AddListener(levelManager.LoadGame);
         menuButton.onClick.AddListener(levelManager.LoadMainMenu);
     }
 }
